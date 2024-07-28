@@ -1,12 +1,13 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import BasicButtons from "@/atoms/buttons/standart-button";
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Get started by editing&nbsp;
+          Bahia vai ganhar? <BasicButtons spacing={2} text="Workshop" variant="contained" direction="row"/> &nbsp;
           <code className={styles.code}>src/app/page.tsx</code>
         </p>
         <div>
